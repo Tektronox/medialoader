@@ -1,0 +1,16 @@
+[Unit]
+Description=Telegram YouTube Downloader Bot
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/medialoader
+ExecStart=/home/pi/medialoader/venv/bin/python /home/pi/medialoader/app.py
+Restart=on-failure
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
