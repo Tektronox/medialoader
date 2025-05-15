@@ -37,7 +37,7 @@ This Python application runs a Telegram bot that listens to a chat for YouTube l
    ```
 5. Set the following variables in the `.env` file:
    - `TELEGRAM_BOT_TOKEN`: Your Telegram bot token from BotFather
-   - `MEDIA_STORAGE_PATH`: Path to your network storage (e.g., `/mnt/network_share/youtube_videos`)
+   - `STORAGE_PATH`: Path to your network storage (e.g., `/mnt/network_share/youtube_videos`)
    - `LOG_LEVEL`: Logging level (INFO, DEBUG, etc.)
 
 ## Setting up Network Storage

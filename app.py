@@ -11,7 +11,8 @@ import sys
 from pathlib import Path
 from dotenv import load_dotenv
 from telegram import Update
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+from telegram.ext import Updater, CommandHandler, MessageHandler, CallbackContext
+from telegram.ext import Filters
 from pytube import YouTube
 
 # Load environment variables from .env file
@@ -30,7 +31,8 @@ logger = logging.getLogger(__name__)
 
 # Configuration
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
-MEDIA_STORAGE_PATH = os.getenv('MEDIA_STORAGE_PATH')
+STORAGE_PATH = os.getenv('STORAGE_PATH')
+CHAT_ID = os.getenv('CHAT_ID')
 
 # YouTube URL regex pattern
 YOUTUBE_REGEX = r'(https?://)?(www\.)?(youtube|youtu|youtube-nocookie)\.(com|be)/(watch\?v=|embed/|v/|.+\?v=)?([^&=%\?]{11})'
@@ -77,7 +79,7 @@ def download_youtube_video(video_id: str) -> tuple:
         
         # Create today's date folder
         today = datetime.datetime.now().strftime('%Y-%m-%d')
-        save_dir = Path(MEDIA_STORAGE_PATH) / today
+        save_dir = Path(STORAGE_PATH) / today
         save_dir.mkdir(parents=True, exist_ok=True)
         
         # Get highest resolution stream with both video and audio
@@ -96,6 +98,12 @@ def download_youtube_video(video_id: str) -> tuple:
 def handle_message(update: Update, context: CallbackContext) -> None:
     """Handle messages containing YouTube links."""
     message_text = update.message.text
+    chat_id = str(update.effective_chat.id)
+    
+    # Check if message is from the monitored chat
+    if CHAT_ID and chat_id != CHAT_ID:
+        logger.debug(f"Message from non-monitored chat: {chat_id}")
+        return
     
     # Extract YouTube video IDs from the message
     video_ids = extract_youtube_id(message_text)
@@ -126,12 +134,17 @@ def main() -> None:
         logger.error("TELEGRAM_BOT_TOKEN environment variable is not set.")
         sys.exit(1)
     
-    if not MEDIA_STORAGE_PATH:
-        logger.error("MEDIA_STORAGE_PATH environment variable is not set.")
+    if not STORAGE_PATH:
+        logger.error("STORAGE_PATH environment variable is not set.")
         sys.exit(1)
     
+    if not CHAT_ID:
+        logger.warning("CHAT_ID environment variable is not set. The bot will respond to all chats.")
+    else:
+        logger.info(f"Bot will only respond to chat ID: {CHAT_ID}")
+    
     # Create storage directory if it doesn't exist
-    Path(MEDIA_STORAGE_PATH).mkdir(parents=True, exist_ok=True)
+    Path(STORAGE_PATH).mkdir(parents=True, exist_ok=True)
     
     # Create the Updater and pass it your bot's token
     updater = Updater(TELEGRAM_BOT_TOKEN)
