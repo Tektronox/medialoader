@@ -99,3 +99,223 @@
 2025-05-15 08:10:19,056 - telegram.bot - DEBUG - []
 2025-05-15 08:10:19,056 - telegram.bot - DEBUG - Exiting: get_updates
 2025-05-15 08:10:19,056 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:10:29,266 - telegram.bot - DEBUG - No new updates found.
+2025-05-15 08:10:29,266 - telegram.bot - DEBUG - []
+2025-05-15 08:10:29,266 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:10:29,266 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:10:33,321 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2025-05-15 08:10:33,322 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-15 08:10:33,322 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2025-05-15 08:10:33,322 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+2025-05-15 08:10:33,322 - telegram.ext.updater - DEBUG - Stopping Updater and Dispatcher...
+2025-05-15 08:10:33,323 - telegram.ext.updater - DEBUG - Requesting Dispatcher to stop...
+2025-05-15 08:10:33,701 - telegram.ext.dispatcher - DEBUG - orderly stopping
+2025-05-15 08:10:33,702 - telegram.ext.dispatcher - DEBUG - Dispatcher thread stopped
+2025-05-15 08:10:33,702 - telegram.ext.updater - DEBUG - Bot:405509904:dispatcher - ended
+2025-05-15 08:10:33,723 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 1/4 to end
+2025-05-15 08:10:33,724 - telegram.ext.dispatcher - DEBUG - Closing run_async thread Bot:405509904:worker:48e0091f-34e2-433c-a26b-69bf78e9173c_0/4
+2025-05-15 08:10:33,724 - telegram.ext.dispatcher - DEBUG - Closing run_async thread Bot:405509904:worker:48e0091f-34e2-433c-a26b-69bf78e9173c_2/4
+2025-05-15 08:10:33,724 - telegram.ext.dispatcher - DEBUG - Closing run_async thread Bot:405509904:worker:48e0091f-34e2-433c-a26b-69bf78e9173c_3/4
+2025-05-15 08:10:33,724 - telegram.ext.dispatcher - DEBUG - Closing run_async thread Bot:405509904:worker:48e0091f-34e2-433c-a26b-69bf78e9173c_1/4
+2025-05-15 08:10:33,725 - telegram.ext.dispatcher - DEBUG - async thread 1/4 has ended
+2025-05-15 08:10:33,726 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 2/4 to end
+2025-05-15 08:10:33,726 - telegram.ext.dispatcher - DEBUG - async thread 2/4 has ended
+2025-05-15 08:10:33,726 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 3/4 to end
+2025-05-15 08:10:33,726 - telegram.ext.dispatcher - DEBUG - async thread 3/4 has ended
+2025-05-15 08:10:33,726 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 4/4 to end
+2025-05-15 08:10:33,726 - telegram.ext.dispatcher - DEBUG - async thread 4/4 has ended
+2025-05-15 08:10:33,726 - telegram.ext.updater - DEBUG - Waiting for Bot:405509904:dispatcher thread to end
+2025-05-15 08:10:33,726 - telegram.ext.updater - DEBUG - Bot:405509904:dispatcher thread has ended
+2025-05-15 08:10:33,726 - telegram.ext.updater - DEBUG - Waiting for Bot:405509904:updater thread to end
+2025-05-15 08:10:39,366 - telegram.bot - DEBUG - No new updates found.
+2025-05-15 08:10:39,366 - telegram.bot - DEBUG - []
+2025-05-15 08:10:39,366 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:10:39,366 - telegram.ext.updater - DEBUG - Bot:405509904:updater - ended
+2025-05-15 08:10:39,367 - telegram.ext.updater - DEBUG - Bot:405509904:updater thread has ended
+2025-05-15 08:14:16,313 - __main__ - INFO - Bot will only respond to chat ID: 226629698
+2025-05-15 08:14:16,317 - telegram.ext.dispatcher - DEBUG - Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x7fad0b5735f0>
+2025-05-15 08:14:16,317 - __main__ - INFO - Starting bot...
+2025-05-15 08:14:16,318 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-15 08:14:16,318 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2025-05-15 08:14:16,318 - telegram.bot - DEBUG - Entering: get_me
+2025-05-15 08:14:16,319 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+2025-05-15 08:14:17,016 - telegram.bot - DEBUG - {'is_bot': True, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False, 'id': 405509904, 'first_name': 'Helferlein', 'username': 'Tims_Helferlein_bot'}
+2025-05-15 08:14:17,016 - telegram.bot - DEBUG - Exiting: get_me
+2025-05-15 08:14:17,016 - telegram.ext.updater - DEBUG - Bot:405509904:dispatcher - started
+2025-05-15 08:14:17,017 - telegram.ext.updater - DEBUG - Bot:405509904:updater - started
+2025-05-15 08:14:17,018 - telegram.ext.updater - DEBUG - Waiting for Dispatcher and polling to start
+2025-05-15 08:14:17,018 - telegram.ext.updater - DEBUG - Updater thread started (polling)
+2025-05-15 08:14:17,019 - telegram.ext.updater - DEBUG - Start network loop retry bootstrap del webhook
+2025-05-15 08:14:17,020 - telegram.ext.updater - DEBUG - Deleting webhook
+2025-05-15 08:14:17,020 - telegram.ext.dispatcher - DEBUG - Dispatcher started
+2025-05-15 08:14:17,020 - telegram.bot - DEBUG - Entering: delete_webhook
+2025-05-15 08:14:17,095 - telegram.bot - DEBUG - True
+2025-05-15 08:14:17,095 - telegram.bot - DEBUG - Exiting: delete_webhook
+2025-05-15 08:14:17,095 - telegram.ext.updater - DEBUG - Bootstrap done
+2025-05-15 08:14:17,096 - telegram.ext.updater - DEBUG - Start network loop retry getting Updates
+2025-05-15 08:14:17,096 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:14:27,247 - telegram.bot - DEBUG - No new updates found.
+2025-05-15 08:14:27,247 - telegram.bot - DEBUG - []
+2025-05-15 08:14:27,247 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:14:27,248 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:14:39,261 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2025-05-15 08:14:39,262 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:14:56,538 - telegram.bot - DEBUG - No new updates found.
+2025-05-15 08:14:56,538 - telegram.bot - DEBUG - []
+2025-05-15 08:14:56,539 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:14:56,539 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:15:07,128 - telegram.bot - DEBUG - No new updates found.
+2025-05-15 08:15:07,129 - telegram.bot - DEBUG - []
+2025-05-15 08:15:07,129 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:15:07,129 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:15:17,215 - telegram.bot - DEBUG - No new updates found.
+2025-05-15 08:15:17,216 - telegram.bot - DEBUG - []
+2025-05-15 08:15:17,216 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:15:17,216 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:15:20,118 - telegram.bot - DEBUG - Getting updates: [817223555]
+2025-05-15 08:15:20,119 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x7fad0b573c70>]
+2025-05-15 08:15:20,119 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:15:20,119 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:15:20,120 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'message_id': 469, 'entities': [{'offset': 0, 'type': 'url', 'length': 48}], 'delete_chat_photo': False, 'channel_chat_created': False, 'group_chat_created': False, 'caption_entities': [], 'chat': {'id': 226629698, 'first_name': 'Tim', 'type': 'private'}, 'supergroup_chat_created': False, 'text': 'https://youtu.be/jEhqWwBZFTA?si=ZirpKgONsEoSxOTU', 'photo': [], 'date': 1747289720, 'new_chat_photo': [], 'new_chat_members': [], 'from': {'is_bot': False, 'id': 226629698, 'first_name': 'Tim', 'language_code': 'de'}}, 'update_id': 817223555}
+2025-05-15 08:15:20,123 - telegram.bot - DEBUG - Entering: send_message
+2025-05-15 08:15:21,287 - telegram.bot - DEBUG - {'message_id': 470, 'entities': [], 'delete_chat_photo': False, 'channel_chat_created': False, 'group_chat_created': False, 'caption_entities': [], 'chat': {'id': 226629698, 'first_name': 'Tim', 'type': 'private'}, 'supergroup_chat_created': False, 'text': 'Downloading video jEhqWwBZFTA...', 'photo': [], 'date': 1747289721, 'new_chat_photo': [], 'new_chat_members': [], 'from': {'is_bot': True, 'id': 405509904, 'first_name': 'Helferlein', 'username': 'Tims_Helferlein_bot'}}
+2025-05-15 08:15:21,287 - telegram.bot - DEBUG - Exiting: send_message
+2025-05-15 08:15:21,288 - pytube.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2025-05-15 08:15:22,028 - youtube_downloader - ERROR - Error downloading video jEhqWwBZFTA: HTTP Error 400: Bad Request
+2025-05-15 08:15:22,029 - telegram.bot - DEBUG - Entering: edit_message_text
+2025-05-15 08:15:22,125 - telegram.bot - DEBUG - {'message_id': 470, 'entities': [], 'delete_chat_photo': False, 'channel_chat_created': False, 'group_chat_created': False, 'caption_entities': [], 'chat': {'id': 226629698, 'first_name': 'Tim', 'type': 'private'}, 'supergroup_chat_created': False, 'edit_date': 1747289722, 'text': 'Failed to download video: HTTP Error 400: Bad Request', 'photo': [], 'date': 1747289721, 'new_chat_photo': [], 'new_chat_members': [], 'from': {'is_bot': True, 'id': 405509904, 'first_name': 'Helferlein', 'username': 'Tims_Helferlein_bot'}}
+2025-05-15 08:15:22,126 - telegram.bot - DEBUG - Exiting: edit_message_text
+2025-05-15 08:15:30,217 - telegram.bot - DEBUG - No new updates found.
+2025-05-15 08:15:30,217 - telegram.bot - DEBUG - []
+2025-05-15 08:15:30,217 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:15:30,217 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:15:40,502 - telegram.bot - DEBUG - No new updates found.
+2025-05-15 08:15:40,502 - telegram.bot - DEBUG - []
+2025-05-15 08:15:40,502 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:15:40,502 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:15:50,641 - telegram.bot - DEBUG - No new updates found.
+2025-05-15 08:15:50,642 - telegram.bot - DEBUG - []
+2025-05-15 08:15:50,642 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:15:50,642 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:16:00,838 - telegram.bot - DEBUG - No new updates found.
+2025-05-15 08:16:00,838 - telegram.bot - DEBUG - []
+2025-05-15 08:16:00,838 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:16:00,839 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:16:10,941 - telegram.bot - DEBUG - No new updates found.
+2025-05-15 08:16:10,941 - telegram.bot - DEBUG - []
+2025-05-15 08:16:10,941 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:16:10,941 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:16:21,325 - telegram.bot - DEBUG - No new updates found.
+2025-05-15 08:16:21,326 - telegram.bot - DEBUG - []
+2025-05-15 08:16:21,326 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:16:21,326 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:16:31,459 - telegram.bot - DEBUG - No new updates found.
+2025-05-15 08:16:31,459 - telegram.bot - DEBUG - []
+2025-05-15 08:16:31,459 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:16:31,459 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:16:41,560 - telegram.bot - DEBUG - No new updates found.
+2025-05-15 08:16:41,560 - telegram.bot - DEBUG - []
+2025-05-15 08:16:41,560 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:16:41,560 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:16:51,754 - telegram.bot - DEBUG - No new updates found.
+2025-05-15 08:16:51,754 - telegram.bot - DEBUG - []
+2025-05-15 08:16:51,755 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:16:51,755 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:17:01,932 - telegram.bot - DEBUG - No new updates found.
+2025-05-15 08:17:01,932 - telegram.bot - DEBUG - []
+2025-05-15 08:17:01,932 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:17:01,932 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:17:07,082 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2025-05-15 08:17:07,082 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-15 08:17:07,083 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2025-05-15 08:17:07,083 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+2025-05-15 08:17:07,083 - telegram.ext.updater - DEBUG - Stopping Updater and Dispatcher...
+2025-05-15 08:17:07,083 - telegram.ext.updater - DEBUG - Requesting Dispatcher to stop...
+2025-05-15 08:17:07,151 - telegram.ext.dispatcher - DEBUG - orderly stopping
+2025-05-15 08:17:07,151 - telegram.ext.dispatcher - DEBUG - Dispatcher thread stopped
+2025-05-15 08:17:07,151 - telegram.ext.updater - DEBUG - Bot:405509904:dispatcher - ended
+2025-05-15 08:17:07,184 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 1/4 to end
+2025-05-15 08:17:07,184 - telegram.ext.dispatcher - DEBUG - Closing run_async thread Bot:405509904:worker:6a2824ce-110f-4834-b8b0-b2633ae6690f_0/4
+2025-05-15 08:17:07,184 - telegram.ext.dispatcher - DEBUG - Closing run_async thread Bot:405509904:worker:6a2824ce-110f-4834-b8b0-b2633ae6690f_2/4
+2025-05-15 08:17:07,185 - telegram.ext.dispatcher - DEBUG - Closing run_async thread Bot:405509904:worker:6a2824ce-110f-4834-b8b0-b2633ae6690f_3/4
+2025-05-15 08:17:07,185 - telegram.ext.dispatcher - DEBUG - Closing run_async thread Bot:405509904:worker:6a2824ce-110f-4834-b8b0-b2633ae6690f_1/4
+2025-05-15 08:17:07,185 - telegram.ext.dispatcher - DEBUG - async thread 1/4 has ended
+2025-05-15 08:17:07,186 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 2/4 to end
+2025-05-15 08:17:07,186 - telegram.ext.dispatcher - DEBUG - async thread 2/4 has ended
+2025-05-15 08:17:07,186 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 3/4 to end
+2025-05-15 08:17:07,187 - telegram.ext.dispatcher - DEBUG - async thread 3/4 has ended
+2025-05-15 08:17:07,187 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 4/4 to end
+2025-05-15 08:17:07,187 - telegram.ext.dispatcher - DEBUG - async thread 4/4 has ended
+2025-05-15 08:17:07,187 - telegram.ext.updater - DEBUG - Waiting for Bot:405509904:dispatcher thread to end
+2025-05-15 08:17:07,187 - telegram.ext.updater - DEBUG - Bot:405509904:dispatcher thread has ended
+2025-05-15 08:17:07,187 - telegram.ext.updater - DEBUG - Waiting for Bot:405509904:updater thread to end
+2025-05-15 08:17:09,721 - telegram.ext.updater - WARNING - Exiting immediately!
+2025-05-15 08:17:12,672 - __main__ - INFO - Bot will only respond to chat ID: 226629698
+2025-05-15 08:17:12,674 - telegram.ext.dispatcher - DEBUG - Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x7fe50ba935f0>
+2025-05-15 08:17:12,674 - __main__ - INFO - Starting bot...
+2025-05-15 08:17:12,674 - apscheduler.scheduler - INFO - Scheduler started
+2025-05-15 08:17:12,675 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2025-05-15 08:17:12,675 - telegram.bot - DEBUG - Entering: get_me
+2025-05-15 08:17:12,675 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+2025-05-15 08:17:13,195 - telegram.bot - DEBUG - {'username': 'Tims_Helferlein_bot', 'can_read_all_group_messages': False, 'supports_inline_queries': False, 'first_name': 'Helferlein', 'id': 405509904, 'is_bot': True, 'can_join_groups': True}
+2025-05-15 08:17:13,196 - telegram.bot - DEBUG - Exiting: get_me
+2025-05-15 08:17:13,196 - telegram.ext.updater - DEBUG - Bot:405509904:dispatcher - started
+2025-05-15 08:17:13,197 - telegram.ext.updater - DEBUG - Bot:405509904:updater - started
+2025-05-15 08:17:13,197 - telegram.ext.updater - DEBUG - Waiting for Dispatcher and polling to start
+2025-05-15 08:17:13,198 - telegram.ext.updater - DEBUG - Updater thread started (polling)
+2025-05-15 08:17:13,198 - telegram.ext.updater - DEBUG - Start network loop retry bootstrap del webhook
+2025-05-15 08:17:13,199 - telegram.ext.dispatcher - DEBUG - Dispatcher started
+2025-05-15 08:17:13,199 - telegram.ext.updater - DEBUG - Deleting webhook
+2025-05-15 08:17:13,199 - telegram.bot - DEBUG - Entering: delete_webhook
+2025-05-15 08:17:13,252 - telegram.bot - DEBUG - True
+2025-05-15 08:17:13,252 - telegram.bot - DEBUG - Exiting: delete_webhook
+2025-05-15 08:17:13,252 - telegram.ext.updater - DEBUG - Bootstrap done
+2025-05-15 08:17:13,252 - telegram.ext.updater - DEBUG - Start network loop retry getting Updates
+2025-05-15 08:17:13,253 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:17:23,483 - telegram.bot - DEBUG - Getting updates: [817223556]
+2025-05-15 08:17:23,484 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x7fe50ba93a00>]
+2025-05-15 08:17:23,484 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:17:23,484 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:17:23,485 - telegram.ext.dispatcher - DEBUG - Processing Update: {'update_id': 817223556, 'message': {'delete_chat_photo': False, 'chat': {'first_name': 'Tim', 'id': 226629698, 'type': 'private'}, 'caption_entities': [], 'text': 'https://youtu.be/jEhqWwBZFTA?si=ZirpKgONsEoSxOTU', 'supergroup_chat_created': False, 'channel_chat_created': False, 'new_chat_photo': [], 'group_chat_created': False, 'date': 1747289842, 'entities': [{'length': 48, 'offset': 0, 'type': 'url'}], 'message_id': 471, 'photo': [], 'new_chat_members': [], 'from': {'language_code': 'de', 'first_name': 'Tim', 'id': 226629698, 'is_bot': False}}}
+2025-05-15 08:17:23,487 - telegram.bot - DEBUG - Entering: send_message
+2025-05-15 08:17:24,053 - telegram.bot - DEBUG - {'delete_chat_photo': False, 'chat': {'first_name': 'Tim', 'id': 226629698, 'type': 'private'}, 'caption_entities': [], 'text': 'Downloading video jEhqWwBZFTA...', 'supergroup_chat_created': False, 'channel_chat_created': False, 'new_chat_photo': [], 'group_chat_created': False, 'date': 1747289844, 'entities': [], 'message_id': 472, 'photo': [], 'new_chat_members': [], 'from': {'username': 'Tims_Helferlein_bot', 'first_name': 'Helferlein', 'id': 405509904, 'is_bot': True}}
+2025-05-15 08:17:24,054 - telegram.bot - DEBUG - Exiting: send_message
+2025-05-15 08:17:24,054 - root - DEBUG - Downloading video from URL: https://www.youtube.com/watch?v=jEhqWwBZFTA
+2025-05-15 08:17:24,054 - pytube.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2025-05-15 08:17:25,149 - youtube_downloader - ERROR - Error downloading video jEhqWwBZFTA: HTTP Error 400: Bad Request
+2025-05-15 08:17:25,151 - telegram.bot - DEBUG - Entering: edit_message_text
+2025-05-15 08:17:25,465 - telegram.bot - DEBUG - {'delete_chat_photo': False, 'chat': {'first_name': 'Tim', 'id': 226629698, 'type': 'private'}, 'caption_entities': [], 'text': 'Failed to download video: HTTP Error 400: Bad Request', 'supergroup_chat_created': False, 'channel_chat_created': False, 'edit_date': 1747289845, 'new_chat_photo': [], 'group_chat_created': False, 'date': 1747289844, 'entities': [], 'message_id': 472, 'photo': [], 'new_chat_members': [], 'from': {'username': 'Tims_Helferlein_bot', 'first_name': 'Helferlein', 'id': 405509904, 'is_bot': True}}
+2025-05-15 08:17:25,465 - telegram.bot - DEBUG - Exiting: edit_message_text
+2025-05-15 08:17:34,026 - telegram.bot - DEBUG - No new updates found.
+2025-05-15 08:17:34,026 - telegram.bot - DEBUG - []
+2025-05-15 08:17:34,027 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:17:34,027 - telegram.bot - DEBUG - Entering: get_updates
+2025-05-15 08:17:35,550 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2025-05-15 08:17:35,550 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-05-15 08:17:35,551 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2025-05-15 08:17:35,551 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+2025-05-15 08:17:35,551 - telegram.ext.updater - DEBUG - Stopping Updater and Dispatcher...
+2025-05-15 08:17:35,551 - telegram.ext.updater - DEBUG - Requesting Dispatcher to stop...
+2025-05-15 08:17:36,468 - telegram.ext.dispatcher - DEBUG - orderly stopping
+2025-05-15 08:17:36,469 - telegram.ext.dispatcher - DEBUG - Dispatcher thread stopped
+2025-05-15 08:17:36,469 - telegram.ext.updater - DEBUG - Bot:405509904:dispatcher - ended
+2025-05-15 08:17:36,553 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 1/4 to end
+2025-05-15 08:17:36,554 - telegram.ext.dispatcher - DEBUG - Closing run_async thread Bot:405509904:worker:6aa0f961-4ba1-47c0-8c21-4399cd549d90_0/4
+2025-05-15 08:17:36,554 - telegram.ext.dispatcher - DEBUG - Closing run_async thread Bot:405509904:worker:6aa0f961-4ba1-47c0-8c21-4399cd549d90_2/4
+2025-05-15 08:17:36,554 - telegram.ext.dispatcher - DEBUG - Closing run_async thread Bot:405509904:worker:6aa0f961-4ba1-47c0-8c21-4399cd549d90_3/4
+2025-05-15 08:17:36,554 - telegram.ext.dispatcher - DEBUG - Closing run_async thread Bot:405509904:worker:6aa0f961-4ba1-47c0-8c21-4399cd549d90_1/4
+2025-05-15 08:17:36,556 - telegram.ext.dispatcher - DEBUG - async thread 1/4 has ended
+2025-05-15 08:17:36,556 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 2/4 to end
+2025-05-15 08:17:36,556 - telegram.ext.dispatcher - DEBUG - async thread 2/4 has ended
+2025-05-15 08:17:36,556 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 3/4 to end
+2025-05-15 08:17:36,556 - telegram.ext.dispatcher - DEBUG - async thread 3/4 has ended
+2025-05-15 08:17:36,556 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 4/4 to end
+2025-05-15 08:17:36,556 - telegram.ext.dispatcher - DEBUG - async thread 4/4 has ended
+2025-05-15 08:17:36,556 - telegram.ext.updater - DEBUG - Waiting for Bot:405509904:dispatcher thread to end
+2025-05-15 08:17:36,557 - telegram.ext.updater - DEBUG - Bot:405509904:dispatcher thread has ended
+2025-05-15 08:17:36,557 - telegram.ext.updater - DEBUG - Waiting for Bot:405509904:updater thread to end
+2025-05-15 08:17:44,162 - telegram.bot - DEBUG - No new updates found.
+2025-05-15 08:17:44,162 - telegram.bot - DEBUG - []
+2025-05-15 08:17:44,162 - telegram.bot - DEBUG - Exiting: get_updates
+2025-05-15 08:17:44,163 - telegram.ext.updater - DEBUG - Bot:405509904:updater - ended
+2025-05-15 08:17:44,163 - telegram.ext.updater - DEBUG - Bot:405509904:updater thread has ended
