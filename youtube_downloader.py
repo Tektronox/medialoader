@@ -7,7 +7,7 @@ import re
 import logging
 import datetime
 from pathlib import Path
-from pytube import YouTube
+from pytubefix import YouTube
 
 # Configure logging
 logger = logging.getLogger(__name__)
